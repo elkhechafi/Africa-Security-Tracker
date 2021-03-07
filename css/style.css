@@ -1,0 +1,710 @@
+@import url('//db.onlinewebfonts.com/c/11a477d3ac9d8fde4dd37b3cfe2c65e2?family=URWBaskervilleW01-Regular');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul{
+    list-style: none;
+}
+h1{
+    font-family: 'baskerville-urw';
+    font-weight: 300;
+    font-style: normal;
+    font-size: 84px;
+    letter-spacing: .04em;
+    line-height: 1.1em;
+    text-transform: none;
+}
+h3{
+    color: #db9675;
+}
+body{
+    width: 100%;
+    font-family: 'baskerville-urw';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    letter-spacing: .05em;
+    line-height: 1.4em;
+    text-transform: none;
+    color: rgba(0,0,0,.75);
+}
+/*--page d'acceuil commence ici--*/
+
+/*--Header commence ici--*/
+.header{
+    width: 100%;
+    background-color: rgba(0, 0, 39);
+}
+
+/*--Menu Commence ici--*/
+.navtop{
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1%;
+    padding-left: 4%;
+    padding-right: 2%;
+}
+.logo{
+    width: 20%;
+    background-color: #ffffff00;
+    border-radius: 5px;
+    text-align: center;
+}
+.topMenu{
+    width: 80%;
+}
+.pagenames{
+    width: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+}
+.pagename{
+    margin: 2%;
+    width: 20%;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #db9675;
+    transition: .5s ease-in-out;
+}
+.pagename:hover{
+    border: 1px solid #ffffff4d;
+    padding: 1%;
+    border-radius: 30px;
+    box-shadow: inset 6px 3px 9px 5px #000000ad;
+}
+/*--Menu finis ici--*/
+.headerTitle{
+    display: inline-flex;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 4%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    height: 80%;
+    width: 100%;
+}
+.mainTitle{
+    color: #db9675;
+    width: 95%;
+}
+.mainPara{
+    font-family: 'Playfair Display SC', serif;
+    font-weight: 300;
+    font-size: 150%;
+    line-height: 1.1em;
+    margin-top: 1%;
+    color: #ffffff;
+    width: 80%;
+    margin-left: 10%;
+}
+/*--Header Finis ici--*/
+
+/*--Cia carte interactive africaine commence ici--*/
+.CIAParent{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    width: 80%;
+    margin-top: 2%;
+    box-shadow: 0px 0px 3px 8px #0000005d;
+}
+.ciaSelection{
+    width: 20%;
+    padding-left: 3%;
+}
+.ciaMap{
+    height: 70vh;
+    width: 60%;
+}
+.map-img path{
+    stroke:#000000;
+    stroke-linecap:round;
+}
+
+.map-img path:hover{
+    fill: #db9575;
+    stroke:#000000;
+    stroke-linecap:round;
+    box-shadow: 0px 0px 3px 6px;
+}
+.mapinfo{
+    width: 20%;
+    padding-right: 3%;
+    height: 100%;
+    
+}
+.countryName{
+    width: 80%;
+}
+.mainTitle-CIA{
+    color: rgb(0, 0, 39);
+    width: 50%;
+    font-family: 'Playfair Display SC', serif;
+    font-size: 50px;
+    margin-bottom: 7%;
+    line-height: 100%;
+}
+.filterCat{
+    color: #db9675;
+}
+.countries{
+    margin-top: 10%;
+    height: 20vh;
+    overflow: auto;
+    background-color: #db9575;
+    box-shadow:  0px 0px 6px 4px #ccc;
+    padding: 3%;
+}
+/*--Cia carte interactive africaine commence ici--*/
+
+.slidecontainer {
+    width: 100%; /* Width of the outside container */
+  }
+  
+  .slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 15px;
+    border-radius: 5px;  
+    background: #db9675;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%; 
+    background: #db9675;
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #ccc;
+    cursor: pointer;
+  }
+
+  .countryDetail{
+        margin-top: 10%;
+        background-color: #db9575;
+        box-shadow:  0px 0px 6px 4px #ccc;
+        padding: 3%;
+        height: 100%;
+  }
+  .DiscoverMore{
+      width: 80%;
+      margin-left: 10%;
+      margin-top: 5%;
+      padding: 2%;
+      border: none;
+      border-radius: 30px;
+  }
+
+  /*--Section des charte commence ici-*/
+  .charte{
+      width: 100%;
+      background-color: #f7f2ee;
+  }
+  .firstChart{
+      margin-left: 10%;
+  }
+  
+  
+  #Morocco{
+    fill:#DEB887;
+
+}
+
+#Morocco:hover{
+    fill:#fff;
+
+}
+#Algeria{
+    fill:#DEB887;
+
+}
+
+#Algeria:hover{
+    fill:#fff;
+
+}
+
+#Tunisia{
+    fill:#DEB887;
+
+}
+
+#Tunisia:hover{
+    fill:#fff;
+
+}
+
+
+#Mauritania{
+    fill:#DEB887;
+
+}
+
+#Mauritania:hover{
+    fill:#fff;
+
+}
+
+#Senegal{
+    fill:#DEB887;
+
+}
+
+#Senegal:hover{
+    fill:#fff;
+
+}
+#Gambia{
+    fill:#DEB887;
+
+}
+
+#Gambia:hover{
+    fill:#fff;
+
+}
+#Guinea-Bissau{
+    fill:#DEB887;
+
+}
+
+#Guinea-Bissau:hover{
+    fill:#fff;
+
+}
+
+#Guinea{
+    fill:#DEB887;
+
+}
+
+#Guinea:hover{
+    fill:#fff;
+
+}
+
+
+#Sierra_Leone{
+    fill:#DEB887;
+
+}
+
+#Sierra_Leone:hover{
+    fill:#fff;
+
+}
+
+
+#Liberia{
+    fill:#DEB887;
+
+}
+
+#Liberia:hover{
+    fill:#fff;
+
+}
+
+#Ivory_Coast{
+    fill:#DEB887;
+
+}
+
+#Ivory_Coast:hover{
+    fill:#fff;
+
+}
+
+#Ghana{
+    fill:#DEB887;
+
+}
+
+#Ghana:hover{
+    fill:#fff;
+
+}
+#Togo{
+    fill:#DEB887;
+
+}
+
+#Togo:hover{
+    fill:#fff;
+
+}
+#Benin{
+    fill:#DEB887;
+
+}
+
+#Benin:hover{
+    fill:#fff;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#Sudan{
+    fill:#A0522D;
+}
+
+#Sudan:hover{
+    fill:#fff;
+}
+
+#Libya{
+    fill:#A0522D;
+}
+
+#Libya:hover{
+    fill:#fff;
+}
+#Nigeria{
+    fill:#A0522D;
+}
+
+#Nigeria:hover{
+    fill:#fff;
+}
+
+
+#Somalia{
+    fill:#A0522D;
+}
+
+#Somalia:hover{
+    fill:#fff;
+}
+#Democratic_Republic_of_Congo{
+    fill:#A0522D;
+}
+
+#Democratic_Republic_of_Congo:hover{
+    fill:#fff;
+}
+
+#Mali{
+    fill:#FFF8DC;
+}
+
+#Mali:hover{
+       fill:#fff;
+}
+
+#Burkina_Faso{
+    fill:#FFF8DC;
+}
+
+#Burkina_Faso:hover{
+      fill:#fff;
+}
+#Niger{
+    fill:#FFF8DC;
+}
+
+#Niger:hover{
+       fill:#fff;
+}
+#chad{
+    fill:#FFF8DC;
+}
+
+#chad:hover{
+    fill:#fff;
+}
+
+
+#Cameroon{
+    fill:#FFF8DC;
+}
+
+#Cameroon:hover{
+   fill:#fff;
+}
+#Central_African_Republic{
+    fill:#FFF8DC;
+}
+
+#Central_African_Republic:hover{
+    fill:#fff;
+}
+
+#South_Sudan
+{
+    fill:#FFF8DC;
+}
+
+#South_Sudan:hover{
+       fill:#fff;
+}
+#Ethiopia
+{
+    fill:#FFF8DC;
+}
+
+#Ethiopia:hover{
+    fill:#fff;
+}
+
+#Egypt
+{
+    fill:#F4A460;
+}
+
+#Egypt:hover{
+    fill:#fff;
+}
+
+
+#Eritrea
+{
+    fill:#F4A460;
+}
+
+#Eritrea:hover{
+    fill:#fff;
+}
+
+#Kenya
+{
+    fill:#F4A460;
+}
+
+#Kenya:hover{
+    fill:#fff;
+}
+
+
+#Uganda
+{
+    fill:#F4A460;
+}
+
+#Uganda:hover{
+    fill:#fff;
+}
+
+#Tanzania
+{
+    fill:#F4A460;
+}
+
+#Tanzania:hover{
+    fill:#fff;
+}
+#Ruanda
+{
+    fill:#F4A460;
+}
+
+#Ruanda:hover{
+    fill:#fff;
+}
+#Burundi
+{
+    fill:#F4A460;
+}
+
+#Burundi:hover{
+    fill:#fff;
+}
+
+#Madagascar
+{
+    fill:#F4A460;
+}
+
+#Madagascar:hover{
+    fill:#fff;
+}
+#Mozambique
+{
+    fill:#F4A460;
+}
+
+#Mozambique:hover{
+    fill:#fff;
+}
+#Malawi
+{
+    fill:#F4A460;
+}
+
+#Malawi:hover{
+    fill:#fff;
+}
+#zimbabwe
+{
+    fill:#F4A460;
+}
+
+#zimbabwe:hover{
+    fill:#fff;
+}
+#South_Africa{
+    fill:#F4A460;
+}
+
+#South_Africa:hover{
+    fill:#fff;
+}
+
+#Lesotho{
+    fill:#F4A460;
+}
+
+#Lesotho:hover{
+    fill:#fff;
+}
+
+#swaziland{
+    fill:#F4A460;
+}
+
+#swaziland:hover{
+    fill:#fff;
+}
+#Botswana{
+    fill:#F4A460;
+}
+
+#Botswana:hover{
+    fill:#fff;
+}
+#Namibia{
+    fill:#F4A460;
+}
+
+#Namibia:hover{
+    fill:#fff;
+}
+#Zambia{
+    fill:#F4A460;
+}
+
+#Zambia:hover{
+    fill:#fff;
+}
+
+#Angola{
+    fill:#F4A460;
+}
+
+#Angola:hover{
+    fill:#fff;
+}
+#Republic_of_the_Congo{
+    fill:#F4A460;
+}
+
+#Republic_of_the_Congo:hover{
+    fill:#fff;
+}
+
+#Gabon{
+    fill:#F4A460;
+}
+
+#Gabon:hover{
+    fill:#fff;
+}
+#Equatorial_Guinea{
+    fill:#F4A460;
+}
+
+#Equatorial_Guinea:hover{
+    fill:#fff;
+}
+#Djibouti{
+    fill:#F4A460;
+}
+
+#Djibouti:hover{
+    fill:#fff;
+}
+
+#Angola{
+    fill:#F4A460;
+}
+
+#Angola:hover{
+    fill:#fff;
+}
+
+/*--choix de l'année commence ici--*/
+.slidecontainer {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3%;
+  }
+  
+  .slider {
+    -webkit-appearance: none;
+    width: 60%;
+    height: 2px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+  }
+  
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #DB9675;
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #DB9675;
+    cursor: pointer;
+  }
+  .filterYear{
+      width: 30%;
+  }
+/*--chois de l'année finis ici--*/
